@@ -298,7 +298,8 @@
 
 
 //升级修改
-/*- (void)goBcoinWeb:(NSString *)var{
+
+ /*- (void)goBcoinWeb:(NSString *)var{
     
     NSString *urlStr = [var stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]];
     NSURL *url = [NSURL URLWithString:urlStr];
